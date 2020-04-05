@@ -1,5 +1,5 @@
 {
-  "name": "endpoint-speed-tester",
+  "name": "get-fastest-url",
   "version": "1.0.0",
   "description": "Get fastest endpoint, given an array of urls.",
   "main": "fastest-url.js",
