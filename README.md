@@ -13,10 +13,14 @@ Returns the fastest endpoint, given an array of urls.
 
 ```javascript
 
-const getFastestUrl = require('./src/index');
+const getFastestUrl = require('get-fastest-url');
 
 (async () => {
-  const { url, elapsedMS } = await getFastestUrl(['https://www.google.com', 'https://www.cnn.com', 'https://www.npr.org'])
+  const { url, elapsedMS } = await getFastestUrl([
+    'https://www.reddit.com/user/ScottRatigan/m/js_lounge/',
+    'https://news.ycombinator.com/',
+    'https://www.twitter.com'
+  ])
   console.log(`The fastest url was ${url} responding in ${elapsedMS} ms.`)
 })()
 

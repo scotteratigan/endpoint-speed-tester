@@ -2,9 +2,9 @@ const fastestUrl = require('./index')
 jest.mock('node-fetch')
 const fetch = require('node-fetch')
 
-const url1 = 'https://news.ycombinator.com/'
-const url2 = 'https://www.twitter.com'
-const url3 = 'https://www.reddit.com'
+const url1 = 'https://www.reddit.com/user/ScottRatigan/m/js_lounge/'
+const url2 = 'https://news.ycombinator.com/'
+const url3 = 'https://www.twitter.com'
 
 beforeEach(() => {
   jest.clearAllMocks()
