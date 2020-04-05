@@ -1,0 +1,29 @@
+{
+  "name": "endpoint-speed-tester",
+  "version": "1.0.0",
+  "description": "Get fastest endpoint, given an array of urls.",
+  "main": "fastest-url.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scotteratigan/endpoint-speed-tester.git"
+  },
+  "author": "Scott E Ratigan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scotteratigan/endpoint-speed-tester/issues"
+  },
+  "homepage": "https://github.com/scotteratigan/endpoint-speed-tester#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-jest": "^25.2.6",
+    "jest": "^25.2.7"
+  }
+}
