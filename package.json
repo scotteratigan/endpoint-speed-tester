@@ -1,6 +1,6 @@
 {
   "name": "get-fastest-url",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get fastest endpoint, given an array of urls.",
   "main": "src/index.js",
   "scripts": {
@@ -25,5 +25,11 @@
     "@babel/preset-env": "^7.9.0",
     "babel-jest": "^25.2.6",
     "jest": "^25.2.7"
-  }
+  },
+  "keywords": [
+    "fastest",
+    "url",
+    "endpoint",
+    "tester"
+  ]
 }
