@@ -1,5 +1,28 @@
 # Endpoint Speed Tester
 Returns the fastest endpoint, given an array of urls.
 
+## Installation
+
+`npm install`
+
+## Testing
+
+`npm t`
+
 ## Example
-See example.js for a working implementation
+
+```javascript
+
+const getFastestUrl = require('./src/index');
+
+(async () => {
+  const { url, elapsedMS } = await getFastestUrl(['https://www.google.com', 'https://www.cnn.com', 'https://www.npr.org'])
+  console.log(`The fastest url was ${url} responding in ${elapsedMS} ms.`)
+})()
+
+```
+
+Produces the following output:
+```
+The fastest url was https://www.cnn.com responding in 104.397 ms.
+```
