@@ -1,4 +1,4 @@
-const getFastestUrl = require('get-fastest-url');
+const getFastestUrl = require('./src/index.js');
 
 (async () => {
   const { url, elapsedMS } = await getFastestUrl([

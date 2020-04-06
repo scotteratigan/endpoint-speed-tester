@@ -29,7 +29,7 @@ const getFastestUrl = require('get-fastest-url');
 
 Produces the following output:
 ```
-The fastest url was https://www.cnn.com responding in 104.397 ms.
+The fastest url was https://news.ycombinator.com/ responding in 147.266 ms.
 ```
 
 ## Example with Custom Timeout (ms)
